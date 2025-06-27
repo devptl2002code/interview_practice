@@ -1,0 +1,52 @@
+performing coding to explain oops concepts
+
+1. Inheritance
+2. Encapsulation
+3. Abstraction
+4. Polymorphism
+
+1. Inheritance:
+    - which inherits methods/ functions from their parent class
+    - inheritance use by called extends parent class from subclass
+        like: static class Subclass extends Parentclass{}
+    - use parent method in subclass without declaration in subclass
+    - example of Animal and Dog class
+
+2. Encapsulation:
+    - to protect sensitive variables from outer class
+    - means to prevent direct access to the variables of class from other class
+    - basically called data hiding
+    - HOW: by private parameters/ variables and create public getters and setters
+
+3. Abstraction:
+    - means to show only required features, hide complex function behind working
+        like: tv remote buttons are there but hide mechanism how it works.
+    - on this method signature (only method name and parameters) are write, no need to write method body
+    - implementation code write in subclass of it
+
+    - TWO type:
+        i. Abstract method: partial abstraction
+            - syntax: abstract class ParentClass, class SubClass extends ParentClass
+            - two methods:
+                a. abstract method: contain only method signature (no need method body)
+                b. concrete method: contain method body with signature
+
+        ii. Interface method: fully 100% abstraction
+            - syntax: interface ParentClass, class SubClass implements ParentClass
+            - contain method signature only in interface class, method must implements in subclass
+            - in implement method in sub class use public before any method
+
+4. Polymorphism:
+    - poly means multiple form of same thing
+    - in java: multiple methods with same name
+
+    - TWO types:
+        i. Static / overloading / Compile-time polymorphism
+            - same methods in same class but with diff parameters
+        ii. Dynamic / overriding / Run-time polymorphism
+            - same methods in diff class
+
+
+
+
+
