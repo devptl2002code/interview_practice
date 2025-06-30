@@ -74,6 +74,7 @@ public class Collections {
         priorityQueue.add(30);
         priorityQueue.add(10);
         priorityQueue.add(20);
+        System.out.println("PriorityQueue Poll: " + priorityQueue);
         System.out.println("PriorityQueue Poll: " + priorityQueue.poll());
 
         // ArrayDeque (also implements Deque)
