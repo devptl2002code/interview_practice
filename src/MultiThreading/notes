@@ -1,0 +1,18 @@
+Multi threading is concept to run multiple thread at a time
+to run various operation in code at a same time.
+
+
+default java run single thread at a time,
+using thread we can manage multi threads,
+
+two methods,
+    1. using extends Thread class,
+        - it allows only one class to extends
+        - because java not allowed multiple inheritance
+        - so, if Thread class is used then no other class allowed to use
+    2. using implements Runnable interface,
+        - it allow multiple interface to implements
+        - it allows to extend other class , also allows to add other interface with Runnable
+
+if one thread is got exception then it will not affect on other threads
+
