@@ -1,0 +1,37 @@
+1. Tell me about your self?
+- Hello, my name is dev patel, I am from Adalaj, gandhinagar.
+I completed my bachelors in filed of computer engineering from saffrony institute of technology.
+
+current I am a Full stack java developer at IntechBit, which is startup to provide tele communication software service.
+where we provide portal to manage all whatsapp business based features like, message template marketing,
+manage templates and chat based service with whatsapp flow automation
+
+where my works to create backend logic like rest api and integrated on frontend by jquery and jsp.
+
+
+2. what is your recent project?
+- as I told you i am working on wapp projects, which mage all whatsapp business fetures which we provide,
+by integrating meta api with out backed in springboot,
+features of these projects like,
+- create whatsapp template like, media temp, text temp, caraousel temp, otp temp, copy code etc.
+- logic to approve those template from meta api, before that we also add filteration
+like reject those template which have spam words and fake marketing, then go to process by meta.
+- feature to send those template like, by single number, bulk csv/excel, send by group/tag/lead etc.
+-add feature of create dynamic temple, so variable inside template text can chnage according to user,
+- worked on chatbot flow automation , to create page where user can create whatsapp chat flow,
+- adding chat based webpage like whatsapp
+ where agents can manage chats of client / sent them using multiple business number from single portal.
+
+
+3. what's your approach to create api.
+- first of all we checked our old apis , is these feature is updation of any old api,
+ then we versioning this api to next version like v2 and categorized in same method format
+ - if not then create new modal, io, service, repo, controller for this to help maintence in future.
+
+
+ 4, what's the generic return type of any api
+ - for generic it will return in json object format,
+
+
+
+

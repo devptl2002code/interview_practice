@@ -1,0 +1,10 @@
+| Data Type | Size                     | Default Value | Range (approx)                   | Description                        |
+| --------- | ------------------------ | ------------- | -------------------------------- | ---------------------------------- |
+| `byte`    | 1 byte (8-bit)           | `0`           | -128 to 127                      | Smallest integer type              |
+| `short`   | 2 bytes (16-bit)         | `0`           | -32,768 to 32,767                | Small int                          |
+| `int`     | 4 bytes (32-bit)         | `0`           | -2^31 to 2^31-1                  | Default integer type               |
+| `long`    | 8 bytes (64-bit)         | `0L`          | -2^63 to 2^63-1                  | Big integers                       |
+| `float`   | 4 bytes (32-bit)         | `0.0f`        | \~±3.4e−38 to ±3.4e+38           | Single-precision decimal           |
+| `double`  | 8 bytes (64-bit)         | `0.0d`        | \~±1.7e−308 to ±1.7e+308         | Double-precision decimal (default) |
+| `char`    | 2 bytes (16-bit)         | `'\u0000'`    | 0 to 65,535 (Unicode characters) | Single character                   |
+| `boolean` | \~1 bit (depends on JVM) | `false`       | `true` or `false`                | Logical value                      |
